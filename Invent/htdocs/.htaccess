@@ -1,0 +1,15 @@
+# Turn on the rewrite engine
+RewriteEngine on
+
+# Rewrite Rules for version 1.0.0 api
+# ###################################
+# Access to a single inventory item
+RewriteRule ^api/v1/([^\/]*)[/]([^\/]*)[//.](html|json|xml) /v1/PlumbingAPI.php?method=$1&item_id=$2&format=$3 [L]
+# Access to entire inventory
+RewriteRule ^api/v1/([^\/]*)[//.](html|json|xml) /v1/PlumbingAPI.php?method=$1&format=$2 [L]
+# Rewrite Rules for version 2.0.0 api
+# ###################################
+# Access to a single inventory item
+RewriteRule ^api/v2/([^\/]*)[/]([^\/]*)[//.](html|json|xml) /v2/PlumbingAPI.php?method=$1&item_id=$2&format=$3 [L]
+# Access to entire inventory
+RewriteRule ^api/v2/([^\/]*)[//.](html|json|xml) /v2/PlumbingAPI.php?method=$1&format=$2 [L]
