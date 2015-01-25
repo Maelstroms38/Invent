@@ -13,6 +13,14 @@
 		B17DCC5D1A224241002342F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17DCC5C1A224241002342F5 /* Images.xcassets */; };
 		B17DCC601A224241002342F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17DCC5E1A224241002342F5 /* LaunchScreen.xib */; };
 		B17DCC6C1A224241002342F5 /* InventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17DCC6B1A224241002342F5 /* InventTests.swift */; };
+		B185A7B71A226EA900922BB0 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185A7B61A226EA900922BB0 /* InventoryItem.swift */; };
+		B185A7B91A226EF000922BB0 /* InventoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185A7B81A226EF000922BB0 /* InventoryTableViewController.swift */; };
+		B185A7BB1A22715A00922BB0 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185A7BA1A22715A00922BB0 /* CategoryTableViewController.swift */; };
+		B185A7BD1A227F8B00922BB0 /* InventoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185A7BC1A227F8A00922BB0 /* InventoryDetailViewController.swift */; };
+		B18CED931A75A41F00967B54 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18CED921A75A41F00967B54 /* ViewController.xib */; };
+		B18CED971A75AE6F00967B54 /* CategoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18CED961A75AE6F00967B54 /* CategoryTableViewController.xib */; };
+		B18CED9D1A75B2AC00967B54 /* InventoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18CED9C1A75B2AC00967B54 /* InventoryTableViewController.xib */; };
+		B1A9996E1A756DB8002A5021 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A9996D1A756DB8002A5021 /* CAPSPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DE8E56861415CE7E2F0488B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17DCC501A224241002342F5 /* Invent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17DCC541A224241002342F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B17DCC551A224241002342F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,15 @@
 		B17DCC651A224241002342F5 /* InventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17DCC6A1A224241002342F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B17DCC6B1A224241002342F5 /* InventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventTests.swift; sourceTree = "<group>"; };
+		B185A7B61A226EA900922BB0 /* InventoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		B185A7B81A226EF000922BB0 /* InventoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTableViewController.swift; sourceTree = "<group>"; };
+		B185A7BA1A22715A00922BB0 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		B185A7BC1A227F8A00922BB0 /* InventoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryDetailViewController.swift; sourceTree = "<group>"; };
+		B18CED921A75A41F00967B54 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		B18CED961A75AE6F00967B54 /* CategoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewController.xib; sourceTree = "<group>"; };
+		B18CED9C1A75B2AC00967B54 /* InventoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InventoryTableViewController.xib; sourceTree = "<group>"; };
+		B1A9996B1A756BE5002A5021 /* libPods-PageMenu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PageMenu.a"; path = "Pods/build/Debug-iphoneos/libPods-PageMenu.a"; sourceTree = "<group>"; };
+		B1A9996D1A756DB8002A5021 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		983458E914BED3A54CFD38C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1A9996B1A756BE5002A5021 /* libPods-PageMenu.a */,
+				8DE8E56861415CE7E2F0488B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B17DCC471A224241002342F5 = {
 			isa = PBXGroup;
 			children = (
 				B17DCC521A224241002342F5 /* Invent */,
 				B17DCC681A224241002342F5 /* InventTests */,
 				B17DCC511A224241002342F5 /* Products */,
+				983458E914BED3A54CFD38C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +105,13 @@
 		B17DCC521A224241002342F5 /* Invent */ = {
 			isa = PBXGroup;
 			children = (
+				B1A9996D1A756DB8002A5021 /* CAPSPageMenu.swift */,
 				B17DCC551A224241002342F5 /* AppDelegate.swift */,
 				B17DCC571A224241002342F5 /* ViewController.swift */,
 				B17DCC591A224241002342F5 /* Main.storyboard */,
+				B18CED921A75A41F00967B54 /* ViewController.xib */,
+				B18CED991A75B15F00967B54 /* Cells */,
+				B18CED981A75B14F00967B54 /* View Controllers */,
 				B17DCC5C1A224241002342F5 /* Images.xcassets */,
 				B17DCC5E1A224241002342F5 /* LaunchScreen.xib */,
 				B17DCC531A224241002342F5 /* Supporting Files */,
@@ -110,6 +142,26 @@
 				B17DCC6A1A224241002342F5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18CED981A75B14F00967B54 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B185A7B81A226EF000922BB0 /* InventoryTableViewController.swift */,
+				B18CED9C1A75B2AC00967B54 /* InventoryTableViewController.xib */,
+				B185A7BA1A22715A00922BB0 /* CategoryTableViewController.swift */,
+				B18CED961A75AE6F00967B54 /* CategoryTableViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B18CED991A75B15F00967B54 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B185A7B61A226EA900922BB0 /* InventoryItem.swift */,
+				B185A7BC1A227F8A00922BB0 /* InventoryDetailViewController.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B17DCC5B1A224241002342F5 /* Main.storyboard in Resources */,
+				B18CED971A75AE6F00967B54 /* CategoryTableViewController.xib in Resources */,
 				B17DCC601A224241002342F5 /* LaunchScreen.xib in Resources */,
+				B18CED9D1A75B2AC00967B54 /* InventoryTableViewController.xib in Resources */,
+				B18CED931A75A41F00967B54 /* ViewController.xib in Resources */,
 				B17DCC5D1A224241002342F5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B185A7B71A226EA900922BB0 /* InventoryItem.swift in Sources */,
 				B17DCC581A224241002342F5 /* ViewController.swift in Sources */,
+				B1A9996E1A756DB8002A5021 /* CAPSPageMenu.swift in Sources */,
+				B185A7BD1A227F8B00922BB0 /* InventoryDetailViewController.swift in Sources */,
+				B185A7BB1A22715A00922BB0 /* CategoryTableViewController.swift in Sources */,
+				B185A7B91A226EF000922BB0 /* InventoryTableViewController.swift in Sources */,
 				B17DCC561A224241002342F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +398,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Invent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -348,6 +414,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Invent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -405,6 +477,7 @@
 				B17DCC711A224241002342F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B17DCC721A224241002342F5 /* Build configuration list for PBXNativeTarget "InventTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +486,7 @@
 				B17DCC741A224241002342F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
